@@ -18,6 +18,17 @@ The console is the first segment of the AirBnB project at Holberton School that 
 * [Authors](#authors)
 * [License](#license)
 
+# General
+
+1. How cool it is to request your own API
+2. How to modify an HTML element style
+3. How to get and update an HTML element content
+4. How to modify the DOM
+5. How to make a GET request with JQuery Ajax
+6. How to make a POST request with JQuery Ajax
+7. How to listen/bind to DOM events
+8. How to listen/bind to user events
+
 ## Environment
 This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.4.3)
 
@@ -158,6 +169,7 @@ Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twit
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)  
 Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
+Vuyisanani Mkutyukelwa - [Github](https://github.com/mv_majestic) / [Twitter](https://twitter.com/mv_majestic)
 
 Second part of Airbnb: Joann Vuong
 ## License
