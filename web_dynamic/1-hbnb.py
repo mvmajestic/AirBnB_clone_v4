@@ -18,14 +18,16 @@ def close_db(error):
     """ Remove the current SQLAlchemy Session """
     storage.close()
 
-@app.route('/0-hbnb/', strict_slashes=False)
+
+@app.route('/1-hbnb/', strict_slashes=False)
 def hbnb():
     """ HBNB is alive! """
     states = storage.all(State).values()
     states = sorted(states, key=lambda k: k.name)
     st_ct = []
 
-    for state in states:
+
+for state in states:
         st_ct.append([state, sorted(state.cities, key=lambda k: k.name)])
 
     amenities = storage.all(Amenity).values()
@@ -39,6 +41,7 @@ def hbnb():
                            amenities=amenities,
                            places=places,
                            cache_id=uuid.uuid4())
+
 
 if __name__ == "__main__":
     """ Main Function """
